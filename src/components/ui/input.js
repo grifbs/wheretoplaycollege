@@ -1,3 +1,4 @@
+// src/components/ui/input.js
 import React from 'react';
 
 const Input = ({ className = '', ...props }) => {
