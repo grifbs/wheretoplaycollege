@@ -1,1 +1,3 @@
-export const Input = (props) => <input {...props} />;
+import Input from './components/ui/input';
+
+<Input type="text" placeholder="Enter something..." />
