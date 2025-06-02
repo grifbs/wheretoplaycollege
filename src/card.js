@@ -1,1 +1,11 @@
-export const Card = ({ children }) => <div className="border rounded p-4 mb-4 bg-white shadow">{children}</div>;
+import React from 'react';
+
+const Card = ({ children, className = '', ...props }) => {
+  return (
+    <div className={`bg-white rounded shadow-md p-4 ${className}`} {...props}>
+      {children}
+    </div>
+  );
+};
+
+export default Card;
