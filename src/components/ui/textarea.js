@@ -1,3 +1,4 @@
+// src/components/ui/textarea.js
 import React from 'react';
 
 const Textarea = ({ className = '', ...props }) => {
